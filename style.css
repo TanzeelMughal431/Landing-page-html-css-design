@@ -36,6 +36,11 @@ button {
   font-weight: 500;
   font-size: 16px;
 }
+button:hover {
+    cursor: pointer;
+    border: 4px solid orangered;
+  }
+  
 #nav-part2 h1 {
   text-transform: uppercase;
   color: orangered;
@@ -112,7 +117,3 @@ h5 {
   text-align: center;
 }
 
-button:hover {
-  cursor: pointer;
-  border: 2px solid orangered;
-}
