@@ -1,113 +1,118 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Helvetica;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
 }
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
-.main{
-    width: 100%;
-    height: 92%;
-    background-color: white;
+.main {
+  width: 100%;
+  height: 92%;
+  background-color: white;
 }
-.nav{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px ;
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
 }
-#nav-part1{
-    display: flex;
-    align-items: center;
+#nav-part1 {
+  display: flex;
+  align-items: center;
 }
-.nav h3,i,button{
-    border: 2px solid black;
-    padding: 5px 10px ;
-    border-radius: 50px;
-    font-weight: 500;
-    font-size: 16px;
+.nav h3,
+i,
+button {
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
 }
-#nav-part2 h1{
-    text-transform: uppercase;
-    color: orangered;
+#nav-part2 h1 {
+  text-transform: uppercase;
+  color: orangered;
 }
-#nav-part3 button{
-    border: 2px solid black;
-    padding: 5px 10px ;
-    border-radius: 50px;
-    font-weight: 600;    
-    font-size: 17px;
+#nav-part3 button {
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 17px;
 }
-#nav-btn2{
-    background-color: orangered;
-    color:white;
+#nav-btn2 {
+  background-color: orangered;
+  color: white;
 }
-.main >h1{
-    /* color: red; */
-    width: 100%;
-    font-size: 130px;
-    text-transform: uppercase;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-100%) ;
-    text-align: center;
+.main > h1 {
+  /* color: red; */
+  width: 100%;
+  font-size: 130px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
 }
-#shdo{
-    color: rgba(146, 146, 146, 0);
-    transform: translate(-50%,+35%) scaleY(-1) ;
-    text-shadow: 0px 100px 10px orangered ;
+#shdo {
+  color: rgba(146, 146, 146, 0);
+  transform: translate(-50%, +35%) scaleY(-1);
+  text-shadow: 0px 100px 10px orangered;
 }
-.main>img{
-    width: 370px;
-    height: 430px;
-    border-radius: 30px;
-    object-fit: cover;
-    object-position: bottom;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);    
+.main > img {
+  width: 370px;
+  height: 430px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: bottom;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.main>img:hover{
-    z-index: 2;
-    border: 5px solid orangered;
+.main > img:hover {
+  z-index: 2;
+  border: 5px solid orangered;
 }
-#imgr1{
-transform: translate(-50%,-50%) rotate(0deg);
+#imgr1 {
+  transform: translate(-50%, -50%) rotate(0deg);
 }
-#imgr2{ 
-transform: translate(-50%,-50%) rotate(-10deg);
+#imgr2 {
+  transform: translate(-50%, -50%) rotate(-10deg);
 }
-#imgr3{
-transform: translate(-50%,-50%) rotate(-20deg);
+#imgr3 {
+  transform: translate(-50%, -50%) rotate(-20deg);
 }
-#imgr4{ 
-transform: translate(-50%,-50%) rotate(-30deg);
+#imgr4 {
+  transform: translate(-50%, -50%) rotate(-30deg);
 }
-#foot{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
+#foot {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
 }
-#foot-right>i{
-    border: none;
+#foot-right > i {
+  border: none;
 }
-i:hover{
-cursor: pointer;
+i:hover {
+  cursor: pointer;
 }
-h5{
-    text-transform: uppercase;
-    text-align: center;
-}
-button:hover{
-    cursor: pointer;
+h5 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
+button:hover {
+  cursor: pointer;
+  border: 2px solid orangered;
+}
