@@ -101,7 +101,7 @@ transform: translate(-50%,-50%) rotate(-30deg);
     border: none;
 }
 i:hover{
-
+cursor: pointer;
 }
 h5{
     text-transform: uppercase;
